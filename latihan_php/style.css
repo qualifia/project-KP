@@ -89,3 +89,125 @@ section h1 {
 section p {
     color: rgb(51, 51, 255);
 }
+
+/* LOGIN */
+body.login-page {
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* FORM LOGIN */
+form.login-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* HEADING FORM */
+form h1 {
+    font-size: 2rem;
+    color: palevioletred;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* INPUT LOGIN */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* TOMBOL LOGIN */
+form button {
+    background-color: rgb(252, 197, 252);
+}
+
+form button:hover {
+    background-color: rgb(242, 121, 242);
+}
+
+/* PESAN ERROR */
+form p.error {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: red;
+    text-align: center;
+}
+
+/* RESPONSIVITAS UNTUK SEMUA HALAMAN */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+    form button {
+        font-size: 0.9rem;
+    }
+}
+
+/* ----------------------------- */
+/* GAYA UNTUK HALAMAN KONTAK (contact.php) */
+/* ----------------------------- */
+
+/* Formulir kontak */
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  }
+  
+  /* Label */
+  form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2e7d32; /* Warna hijau tua */
+  }
+  
+  /* Input dan textarea */
+  form input,
+  form textarea {
+    width: 100%; /* Lebar penuh */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  form textarea {
+    height: 120px;
+    resize: none; /* Nonaktifkan resize */
+  }
+  
+  /* Tombol kirim */
+  form button {
+    width: 100%; /* Tombol selebar form */
+    font-size: 1.1rem;
+  }
+  
+  form button:hover {
+    background-color: #2e7d32; /* Hijau lebih gelap saat hover */
+  }
+  
+  /* Pesan konfirmasi */
+  form p {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #2e7d32; /* Warna hijau tua */
+  }
