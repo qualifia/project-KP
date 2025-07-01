@@ -48,3 +48,44 @@ button {
     transition: background-color 0.3s ease;
 }
 
+/* NAVIGASI */
+nav ul {
+    list-style: none; /* menghapus bullet */
+    margin: 0;
+    padding: 0;
+    display: flex; /* membuat daftar flexbox */
+    justify-content: center;
+    background-color: bisque;
+}
+
+nav ul li {
+    margin: 0 15px; /* jarak antar item */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 15px; /* ruang dalam link */
+    display: block;
+    border-radius: 5px;
+    transition: backgorund-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: beige;
+}
+
+/* konten utama */
+section {
+    text-align: center;
+    margin: 50px auto;
+}
+
+section h1 {
+    color: rgb(183, 183, 255);
+}
+
+section p {
+    color: rgb(51, 51, 255);
+}
