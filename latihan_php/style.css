@@ -1,0 +1,50 @@
+/* FONT DAAR DAN WARNA LATAR */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+
+/* HEADING UTAMA */
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: pink;
+}
+
+/* PARAGRAF STANDAR */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 10px auto;
+    max-width: 800px;
+    text-align: center;
+    color: gray;
+}
+
+/* GAYA UNTUK LINK */
+a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* GARIS BAWAH SAAT HOVER */
+a:hover {
+    text-decoration: underline;
+}
+
+/* TOMBOL UMUM */
+button {
+    background-color: rgb(132, 83, 133);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
